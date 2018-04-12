@@ -10,7 +10,7 @@ public class ServidorWeb {
 
     public static void main (String[] args) throws IOException {
         
-        ServerSocket socketServidor = new ServerSocket(8080);
+        ServerSocket socketServidor = new ServerSocket(8090);
         System.out.println("Servidor iniciado. Loop para conexões iniciado.1");
 
         while(true) {
